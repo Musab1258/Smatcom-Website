@@ -1,0 +1,214 @@
+import React from 'react';
+import Footer from './components/footer/Footer';
+import NavBar from './components/nav_bar/NavBar';
+import pattern from './images/home/Pattern.png';
+import plus from './images/home/plus.svg';
+import union from './images/home/Union.svg';
+import ArrowLeft from './images/home/arrow_left.svg';
+import ArrowRight from './images/home/arrow_right.svg';
+import partner from './images/home/Partner.png';
+import ArrowUp from './images/home/arrow_up.svg';
+import member1 from './images/home/member1.png';
+import member2 from './images/home/member2.png';
+import member3 from './images/home/member3.png';
+import member4 from './images/home/member4.png';
+
+function App() {
+  return (
+    <div>
+      <NavBar />
+     
+
+      <div className='pt-48'>
+        
+        <div className='px-12 bg-[#F4F6FB] flex'>
+          <div className='w-[50%]'>
+            <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
+            <p className='mb-8 text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
+            <p className='mb-16 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication, increase access to information, and streamline many of our daily duties.</p>
+            <button className='rounded-sm bg-[#8873EF] p-3 text-[16px]'>How we work</button>
+          </div>
+
+          <div>
+            <img src={pattern} alt="circular pattern" />
+          </div>
+        </div>
+
+        <div className='px-12 bg-[#FFFFFF] flex m-auto'>
+
+          <div className='mr-2 p-12 border flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+              <img src={plus} alt="plus icon"  />
+            </div>
+            <p className='text-[52px]'>1.5M</p>
+            <p className='text-[18px]'>Projected Beneficiaries</p>
+          </div>
+
+          <div className='ml-2 mr-2 p-12 border flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+              <img src={plus} alt="plus icon" />
+            </div>
+            <p>1.5M</p>
+            <p>Projected Beneficiaries</p>
+          </div>
+
+          <div className='ml-2 mr-2 p-12 border flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+              <img src={plus} alt="plus icon" />
+            </div>
+            <p>1.5M</p>
+            <p>Projected Beneficiaries</p>
+          </div>
+
+          <div className='ml-2 p-12 border flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+              <img src={union} alt="union icon" />
+            </div>
+            <p>1.5M</p>
+            <p>Projected Beneficiaries</p>
+          </div>
+
+        </div>
+
+
+        <div className='flex'>
+
+          <div className='bg-[#081D20] w-[55%] pl-10 py-12'>
+            <p className='text-[#FFFFFF] text-[52px]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
+            <p className='text-[#FFFFFF] text-[52px]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
+
+            <div className=''>
+
+              <div className='w-[45%]'>
+                <div className='flex justify-between py-2'>
+                  <p className='text-[20px]'>Who Are We</p>
+                  <span className='rounded-sm p-2 justify-self-end flex justify-center bg-[#C2B8F7]'>
+                    <img src={ArrowRight} alt="arrow pointing to right" />
+                  </span>
+                </div>
+                <hr className='text-[#FFFFFF]' />
+              </div>
+
+              <div className='w-[45%]'>
+                <div className='flex justify-between py-2'>
+                  <p className='text-[14px]'>What We Do</p>
+                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                    <img src={ArrowRight} alt="arrow pointing to right" />
+                  </span>
+                </div>
+                <hr className='text-[#FFFFFF]'/>
+              </div>
+
+              <div className='w-[45%]'>
+                <div className='flex justify-between py-2'>
+                  <p className='text-[14px]'>Our Vision</p>
+                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                    <img src={ArrowRight} alt="arrow pointing to right" />
+                  </span>
+                </div>
+                <hr className='text-[#FFFFFF]'/>
+              </div>
+
+              <div className='w-[45%]'>
+                <div className='flex justify-between py-2'>
+                  <p>Our Mission</p>
+                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                    <img src={ArrowRight} alt="arrow pointing to right" />
+                  </span>
+                </div>
+                <hr className='text-[#FFFFFF]'/>
+              </div>
+              
+              <div className='w-[45%] border'>
+                <div className='flex justify-between py-2'>
+                  <p>Our Core Values</p>
+                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                    <img src={ArrowRight} alt="arrow pointing to right" />
+                  </span>
+                </div>
+                <hr className='text-[#FFFFFF]'/>
+              </div>
+  
+            </div>
+          </div>
+
+          <div className='bg-gradient-to-b w-[45%] from-[#FFFFFF] to-[#000000] background: linear-gradient(180deg, rgba(8, 29, 32, 0) -34.17%, #081D20 100%);
+'>
+            <p className='text-[20px]'>Who Are We</p>
+            <p className='text-[16px]'>
+              Smatcom Africa is an emerging innovation and advocacy startup that specializes in helping business and communities leverage on technology that would help enhance a smart way of living and ease of doing business.
+              We are poised to help bridge the technological gap in the present day by offering in demand trainings and services that would help our clients take the technological leap needed for their personal and business growth.
+              We also organize strategic stakeholders parley and quarterly meet ups on emerging technologies, Policy making and consultancy for our clients and as well help manage their technological elevation by equipping and training their staffs on the needed skills for such elevation ranging from branding, enhance workplace productivity, market analysis and customer relationship etc.
+              We are dedicated to building a smart community and workplace that works for all.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div className='p-12 text-center'>
+
+          <p className='mb-8 text-[52px]'>Our Team</p>
+          <p className='mb-12 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
+          <div className='flex mb-6'>
+            <img src={member1} alt="team member 1" className='mr-2' />
+            <img src={member2} alt="team member 2" className='ml-2 mr-2' />
+            <img src={member3} alt="team member 3" className='ml-2 mr-2' />
+            <img src={member4} alt="team member 4" className='ml-2' />  
+          </div>  
+
+          <div>
+
+            <div className='flex items-end'>
+              <div className='w-[52%] flex justify-end'>
+
+                <span className='rounded-sm p-2 flex justify-center mr-4 bg-[#C2B8F7]'>
+                  <img src={ArrowLeft} alt="arrow pointing to right" />
+                </span>
+                <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                  <img src={ArrowRight} alt="arrow pointing to right" />
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>     
+        </div>
+
+        
+        <div className='pt-12 pb-6 bg-[#F4F6FB] flex justify-center'>
+
+          <div className='w-[50%]'>
+            <p className='text-[52px]'>We Work With The</p>
+            <p className='text-[52px]'>Best <span className='text-[#8873EF]'>Partners</span></p>
+            <p className='w-[80%] text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
+          </div>
+
+          <div className='w-[40%]'>
+            <div className='flex mb-12'>
+              <img src={partner} alt="partner's logo" className='mr-6' />
+              <img src={partner} alt="partner's logo" className='ml-6' />
+            </div>
+
+            <div className='flex mt-12'>
+              <img src={partner} alt="partner's logo" className='mr-6' />
+              <img src={partner} alt="partner's logo" className='ml-6' />
+            </div>
+            
+            <div className='flex justify-end'>
+              <img src={ArrowUp} alt="Arrow Up" className='rounded-md -translate-y-7 px-5 py-4 bg-[#C2B8F7]' />
+            </div>
+          </div>
+          
+          
+        </div>
+        
+      </div>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
