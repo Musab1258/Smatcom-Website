@@ -16,56 +16,55 @@ import member4 from './images/home/member4.png';
 function App() {
   return (
     <div>
-      <NavBar />
-     
 
-      <div className='pt-48'>
+      <div>
         
-        <div className='px-12 bg-[#F4F6FB] flex'>
-          <div className='w-[50%]'>
-            <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
-            <p className='mb-8 text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
-            <p className='mb-16 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication, increase access to information, and streamline many of our daily duties.</p>
+        <NavBar />
+        <div className='px-12 pt-28 bg-[#F4F6FB] flex'>
+          <div className='w-[50%] p-12'>
+            <p className='text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
+            <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
+            <p className='mb-8 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication, increase access to information, and streamline many of our daily duties.</p>
             <button className='rounded-sm bg-[#8873EF] p-3 text-[16px]'>How we work</button>
           </div>
 
-          <div>
+          <div className='p-12'>
             <img src={pattern} alt="circular pattern" />
           </div>
         </div>
 
-        <div className='px-12 bg-[#FFFFFF] flex m-auto'>
+        <div className='px-12 bg-[#FFFFFF] flex justify-center py-12'>
 
-          <div className='mr-2 p-12 border flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+          <div className='mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
               <img src={plus} alt="plus icon"  />
             </div>
-            <p className='text-[52px]'>1.5M</p>
+            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
             <p className='text-[18px]'>Projected Beneficiaries</p>
           </div>
 
-          <div className='ml-2 mr-2 p-12 border flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+          <div className='ml-2 mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
               <img src={plus} alt="plus icon" />
             </div>
-            <p>1.5M</p>
-            <p>Projected Beneficiaries</p>
+            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+            <p className='text-[18px]'>Projected Beneficiaries</p>
           </div>
 
-          <div className='ml-2 mr-2 p-12 border flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+          <div className='ml-2 mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
               <img src={plus} alt="plus icon" />
             </div>
-            <p>1.5M</p>
-            <p>Projected Beneficiaries</p>
+            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+            <p className='text-[18px]'>Projected Beneficiaries</p>
           </div>
 
-          <div className='ml-2 p-12 border flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm flex justify-center bg-dark-blue'>
+          <div className='ml-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
               <img src={union} alt="union icon" />
             </div>
-            <p>1.5M</p>
-            <p>Projected Beneficiaries</p>
+            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+            <p className='text-[18px]'>Projected Beneficiaries</p>
           </div>
 
         </div>
