@@ -13,11 +13,13 @@ const Footer = () => {
                     <p className="mb-3 text-[38px]">Smart Life.</p>
                     <p className="mb-4 text-[20px]">You can start by sending us a message</p>
                     <div className="flex">
-                        <button className="bg-[#8873EF] p-3 rounded-tl-md rounded-bl-md text-[14px] flex">Contact Us</button>
-                        <span className="bg-[#9B8AF2] rounded-md flex px-3 -translate-x-1">
-                            <img src={ArrowRight} alt="arrow pointing to the right" />
-                        </span>
-                        <span className="text-[20px] ml-2">smatcomafrica@gmail.com</span>
+                        <button className="bg-[#8873EF] pl-4 pr-1 py-1 rounded-md text-[14px] flex items-center">
+                            Contact Us
+                            <span className="bg-[#9B8AF2] rounded-md ml-3 flex px-3 py-4">
+                                <img src={ArrowRight} alt="arrow pointing to the right" />
+                            </span>
+                        </button>
+                        <span className="text-[20px] ml-2 mt-2">smatcomafrica@gmail.com</span>
                     </div>    
                 </div>
 

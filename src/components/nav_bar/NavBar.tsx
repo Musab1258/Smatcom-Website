@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 import SmatCom_Logo from "../../images/home/SmatCom_Logo.svg";
-
+import ArrowRight from "../../images/nav/arrow_right.svg";
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -50,9 +50,13 @@ const NavBar = () => {
 
                     <Link
                       to="/enroll"
-                      className="text-[#FFFFFF] bg-[#8873EF] px-3 py-2 rounded-md text-[14px] font-medium"
                     >
-                      Contact Us
+                      <button className="bg-[#8873EF] pl-4 pr-1 py-1 rounded-md text-[#FFFFFF] text-[14px] font-medium flex items-center">
+                          Contact Us
+                          <span className="bg-[#9B8AF2] rounded-md ml-3 flex px-3 py-4">
+                              <img src={ArrowRight} alt="arrow pointing to the right" />
+                          </span>
+                      </button>
                     </Link>
 
                   </div>
