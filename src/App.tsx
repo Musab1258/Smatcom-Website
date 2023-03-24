@@ -27,15 +27,22 @@ function App() {
             <p className='text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
             <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
             <p className='mb-8 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication, increase access to information, and streamline many of our daily duties.</p>
-            <button className="bg-[#8873EF] pl-4 pr-1 py-[6px] rounded-md text-[14px] flex items-center">
+            
+            <div className='flex'>
+
+              <button className="bg-[#8873EF] pl-4 pr-1 py-[6px] rounded-md text-[14px] flex items-center">
                 How We Work
                 <span className="bg-[#9B8AF2] rounded-md ml-3 mr-1 flex p-3">
                     <img src={ArrowRight1} alt="arrow pointing to the right" />
                 </span>
-            </button>
-            <button>
-              <img src={play} alt="play icon" />
-            </button>
+              </button>
+              <button className='ml-3 bg-[#9B8AF2] p-4 rounded-full'>
+                <img src={play} alt="play icon" />
+              </button>
+              <span className='mt-4 ml-2 text-[#8873EF]'>Play Video</span>
+
+            </div>
+            
           </div>
 
           <div className='p-12'>
@@ -91,7 +98,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p className='text-[20px]'>Who Are We</p>
-                  <span className='rounded-sm p-2 justify-self-end flex justify-center bg-[#C2B8F7]'>
+                  <span className='rounded-sm bg-[#F4F6FB] p-2 justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -101,7 +108,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p className='text-[14px]'>What We Do</p>
-                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -111,7 +118,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p className='text-[14px]'>Our Vision</p>
-                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -121,7 +128,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p>Our Mission</p>
-                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -131,7 +138,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p>Our Core Values</p>
-                  <span className='rounded-sm p-2 flex justify-center bg-[#C2B8F7]'>
+                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -143,7 +150,7 @@ function App() {
 
           <div className='w-[45%]'>
 
-            <div className='w-[90%] mt-24 mr-6 pl-10 pr-5 border'>
+            <div className='w-[90%] mt-24 mr-6 pl-10 pr-5'>
               <p className='text-[20px]'>Who Are We</p>
               <p className='text-[16px] pt-3 pb-6'>
                 Smatcom Africa is an emerging innovation and advocacy startup that specializes in helping business and communities leverage on technology that would help enhance a smart way of living and ease of doing business.
