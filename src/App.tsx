@@ -1,4 +1,5 @@
 import React from 'react';
+import "./App.css";
 import Footer from './components/footer/Footer';
 import NavBar from './components/nav_bar/NavBar';
 import play from './images/home/Icon.svg';
@@ -22,7 +23,7 @@ function App() {
       <div>
         
         <NavBar />
-        <div className='px-12 pt-28 bg-[#F4F6FB] flex'>
+        <div className='px-12 pt-28 bg-[#F4F6FB] bg-img flex'>
           <div className='w-[50%] p-12'>
             <p className='text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
             <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
@@ -50,7 +51,7 @@ function App() {
           </div>
         </div>
 
-        <div className='px-12 bg-[#FFFFFF] flex justify-center py-12'>
+        <div className='px-12 bg-[#FFFFFF] flex justify-center py-16'>
 
           <div className='mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
             <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
@@ -97,8 +98,8 @@ function App() {
 
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
-                  <p className='text-[20px]'>Who Are We</p>
-                  <span className='rounded-sm bg-[#F4F6FB] p-2 justify-center'>
+                  <p className='text-[20px]'>Who We Are</p>
+                  <span className='rounded-sm bg-[#5a5a5a] p-2 justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -108,7 +109,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p className='text-[14px]'>What We Do</p>
-                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
+                  <span className='rounded-sm p-2 bg-[#5a5a5a] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -118,7 +119,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p className='text-[14px]'>Our Vision</p>
-                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
+                  <span className='rounded-sm p-2 bg-[#5a5a5a] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -128,7 +129,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p>Our Mission</p>
-                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
+                  <span className='rounded-sm p-2 bg-[#5a5a5a] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -138,7 +139,7 @@ function App() {
               <div className='w-[45%]'>
                 <div className='flex justify-between py-2'>
                   <p>Our Core Values</p>
-                  <span className='rounded-sm p-2 bg-[#F4F6FB] flex justify-center'>
+                  <span className='rounded-sm p-2 bg-[#5a5a5a] flex justify-center'>
                     <img src={ArrowRight1} alt="arrow pointing to right" />
                   </span>
                 </div>
@@ -151,7 +152,7 @@ function App() {
           <div className='w-[45%]'>
 
             <div className='w-[90%] mt-24 mr-6 pl-10 pr-5'>
-              <p className='text-[20px]'>Who Are We</p>
+              <p className='text-[20px]'>Who We Are</p>
               <p className='text-[16px] pt-3 pb-6'>
                 Smatcom Africa is an emerging innovation and advocacy startup that specializes in helping business and communities leverage on technology that would help enhance a smart way of living and ease of doing business.
                 We are poised to help bridge the technological gap in the present day by offering in demand trainings and services that would help our clients take the technological leap needed for their personal and business growth.
