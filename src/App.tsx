@@ -9,6 +9,7 @@ import union from './images/home/Union.svg';
 import ArrowLeft from './images/home/arrow_left.svg';
 import ArrowRight1 from './images/home/arrow_right1.svg';
 import ArrowRight2 from './images/home/arrow_right2.svg';
+import who_we_are from './images/home/who_we_are.png';
 import partner from './images/home/Partner.png';
 import ArrowUp from './images/home/arrow_up.svg';
 import member1 from './images/home/member1.png';
@@ -24,7 +25,7 @@ function App() {
         
         <NavBar />
         <div className='px-12 pt-28 bg-[#F4F6FB] bg-img flex'>
-          <div className='w-[50%] p-12'>
+          <div className='w-[53%] p-12'>
             <p className='text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
             <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
             <p className='mb-8 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication, increase access to information, and streamline many of our daily duties.</p>
@@ -90,7 +91,7 @@ function App() {
 
         <div className='flex'>
 
-          <div className='bg-[#081D20] w-[55%] pl-10 py-12'>
+          <div className='bg-[#081D20] w-[55%] pl-10 py-24'>
             <p className='text-[#FFFFFF] text-[52px]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
             <p className='text-[#FFFFFF] text-[52px]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
 
@@ -150,17 +151,7 @@ function App() {
           </div>
 
           <div className='w-[45%]'>
-
-            <div className='w-[90%] mt-24 mr-6 pl-10 pr-5'>
-              <p className='text-[20px]'>Who We Are</p>
-              <p className='text-[16px] pt-3 pb-6'>
-                Smatcom Africa is an emerging innovation and advocacy startup that specializes in helping business and communities leverage on technology that would help enhance a smart way of living and ease of doing business.
-                We are poised to help bridge the technological gap in the present day by offering in demand trainings and services that would help our clients take the technological leap needed for their personal and business growth.
-                We also organize strategic stakeholders parley and quarterly meet ups on emerging technologies, Policy making and consultancy for our clients and as well help manage their technological elevation by equipping and training their staffs on the needed skills for such elevation ranging from branding, enhance workplace productivity, market analysis and customer relationship etc.
-                We are dedicated to building a smart community and workplace that works for all.
-              </p>
-            </div>
-    
+            <img src={who_we_are} alt="Contains text describing who we are" />
           </div>
 
         </div>
@@ -168,7 +159,7 @@ function App() {
 
         <div className='p-12 text-center'>
 
-          <p className='mb-8 text-[52px]'>Our Team</p>
+          <p className='mb-8 text-[52px]'>Our <span className='text-[#8873EF]'>Team</span></p>
           <p className='mb-12 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
           <div className='flex mb-6'>
             <img src={member1} alt="team member 1" className='mr-2' />
