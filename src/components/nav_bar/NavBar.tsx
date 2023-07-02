@@ -7,7 +7,7 @@ import ArrowRight from "../../images/nav/arrow_right.svg";
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div className="fixed z-50 w-[100vw] bg-[#FFFFFF]">
+      <div className="fixed px-6 z-50 w-[100vw] bg-[#FFFFFF]">
         <nav className="bg-[#FFFFFF]">
           <div className="max-w-7xl px-4 sm:px-6 lg:px-8 py-1 md:py-8">
             <div className="flex items-center justify-between h-16">
@@ -38,7 +38,7 @@ const NavBar = () => {
                       to="/records"
                       className="text-[#081D20] hover:text-[#8873EF] px-3 py-2 rounded-md text-[14px] font-medium"
                     >
-                      How we work
+                      How We work
                     </Link>
 
                     <Link
@@ -121,40 +121,46 @@ const NavBar = () => {
           >
             {(ref) => (
               <div className="h-screen md:hidden text-center" id="mobile-menu">
-                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
                 <Link
                   to="/"
-                  className="text-l-gray-orange block px-3 py-2 rounded-md text-[16px] font-medium"
+                  className="text-[#081D20] hover:text-[#8873EF] block px-3 py-2 rounded-md text-[16px] font-medium"
                 >
                   Home
                 </Link>
   
                 <Link
                     to="/classes"
-                    className="text-l-gray-orange block px-3 py-2 rounded-md text-[16px] font-medium"
+                    className="text-[#081D20] hover:text-[#8873EF] block px-3 py-2 mb-4 rounded-md text-[16px] font-medium"
                 >
-                    Classes
+                    About
                 </Link>
 
                 <Link
                     to="/about"
-                    className="text-l-gray-orange block px-3 py-2 rounded-md text-[16px] font-medium"
+                    className="text-[#081D20] hover:text-[#8873EF] block px-3 py-2 mb-4 rounded-md text-[16px] font-medium"
                 >
-                    Our Story
+                    How We Work
                 </Link>
 
                 <Link
                     to="/records"
-                    className="text-l-gray-orange px-3 py-2 rounded-md text-[16px] font-medium"
+                    className="text-[#081D20] hover:text-[#8873EF] px-3 py-2 mb-4 rounded-md text-[16px] font-medium"
                 >
-                    Records
+                    Team
                 </Link>
 
                 <Link
                     to="/enroll"
-                    className="text-l-gray-orange block px-3 py-2 rounded-md text-[16px] font-medium"
+                    className="text-[#081D20] hover:text-[#8873EF] block px-3 py-2 rounded-md text-[16px] font-medium"
                 >
-                    Enroll
+
+                    <button className="bg-[#8873EF] pl-4 pr-1 py-1 rounded-md text-[#FFFFFF] text-[14px] font-medium flex items-center">
+                        Contact Us
+                        <span className="bg-[#9B8AF2] rounded-md ml-3 flex px-3 py-4">
+                            <img src={ArrowRight} alt="arrow pointing to the right" />
+                        </span>
+                    </button>
                 </Link>
 
                 </div>

@@ -1,14 +1,11 @@
 .bg-img {
     background-image: url("./images/home/Map.png");
-    background-position-x: right;
-    background-repeat: no-repeat;
 }
 
-
-
-
-/* border-radius: 0px 8px 0px 0px;
-background: rgba(255, 255, 255, 0.10);
-
-/* Glass */
-/*backdrop-filter: blur(10px); */
+@media screen and (min-width: 640px) {
+    .bg-img {
+        background-image: url("./images/home/Map.png");
+        background-position-x: right;
+        background-repeat: no-repeat;
+    }       
+}

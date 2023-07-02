@@ -6,9 +6,9 @@ import ArrowRight from '../../images/footer/arrow_right.svg';
 const Footer = () => {
     return (
         <div className="bg-[#12141D] py-12 px-20 text-left text-white">
-            <div className="flex justify-start">
+            <div className="sm:flex sm:justify-start">
                 
-                <div className="w-2/4 -translate-y-3">
+                <div className="my-4 sm:w-2/4 -translate-y-3">
                     <p className="text-[38px]">Smart Community,</p>
                     <p className="mb-3 text-[38px]">Smart Life.</p>
                     <p className="mb-4 text-[20px]">You can start by sending us a message</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className="w-2/4 text-end">
+                <div className="my-4 sm:w-2/4 text-end">
                     <p className="mb-4 text-[16px]">Smatcom Africa is an emerging innovation and advocacy startup that specializes in helping business and community leverage on technology that would help enhance</p>
                     
                     <div className="flex flex-col items-end">

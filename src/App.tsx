@@ -25,8 +25,9 @@ function App() {
       <div>
         
         <NavBar />
-        <div className='px-12 pt-28 bg-[#F4F6FB] bg-img flex'>
-          <div className='w-[53%] p-12'>
+
+        <div className='px-4 sm:px-12 pt-28 bg-[#F4F6FB] bg-img sm:flex'>
+          <div className='p-4 sm:w-[53%] sm:p-12'>
             <p className='text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
             <p className='mb-8 text-[60px] text-[#081D20]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
             <p className='mb-8 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication, increase access to information, and streamline many of our daily duties.</p>
@@ -53,46 +54,50 @@ function App() {
           </div>
         </div>
 
-        <div className='px-12 bg-[#FFFFFF] flex justify-center py-16'>
+        <div className='px-12 bg-[#FFFFFF] sm:flex sm:justify-center py-16'>
 
-          <div className='mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
-              <img src={plus} alt="plus icon"  />
+          <div className='flex justify-between my-6'>
+            <div className='mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+              <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
+                <img src={plus} alt="plus icon"  />
+              </div>
+              <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+              <p className='text-[18px]'>Projected Beneficiaries</p>
             </div>
-            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
-            <p className='text-[18px]'>Projected Beneficiaries</p>
+
+            <div className='ml-2 sm:mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+              <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
+                <img src={plus} alt="plus icon" />
+              </div>
+              <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+              <p className='text-[18px]'>Projected Beneficiaries</p>
+            </div>
           </div>
 
-          <div className='ml-2 mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
-              <img src={plus} alt="plus icon" />
+          <div className='flex justify-between my-6'>
+            <div className='sm:ml-2 mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+              <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
+                <img src={plus} alt="plus icon" />
+              </div>
+              <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+              <p className='text-[18px]'>Projected Beneficiaries</p>
             </div>
-            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
-            <p className='text-[18px]'>Projected Beneficiaries</p>
-          </div>
 
-          <div className='ml-2 mr-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
-              <img src={plus} alt="plus icon" />
+            <div className='ml-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
+              <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
+                <img src={union} alt="union icon" />
+              </div>
+              <p className='text-[52px] text-[#8873EF]'>1.5M</p>
+              <p className='text-[18px]'>Projected Beneficiaries</p>
             </div>
-            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
-            <p className='text-[18px]'>Projected Beneficiaries</p>
-          </div>
-
-          <div className='ml-2 p-12 bg-[#F4F6FB] flex flex-col justify-center items-center'>
-            <div className='w-[30px] h-[30px] rounded-sm bg-[#C2B8F7] flex justify-center'>
-              <img src={union} alt="union icon" />
-            </div>
-            <p className='text-[52px] text-[#8873EF]'>1.5M</p>
-            <p className='text-[18px]'>Projected Beneficiaries</p>
           </div>
 
         </div>
 
 
-        <div className='flex'>
+        <div className='sm:flex'>
 
-          <div className='bg-[#081D20] w-[55%] pl-10 py-24'>
+          <div className='bg-[#081D20] sm:w-[55%] pl-10 py-24'>
             <p className='text-[#FFFFFF] text-[52px]'>Smart <span className='text-[#8873EF]'>Community</span>,</p>
             <p className='text-[#FFFFFF] text-[52px]'>Smart <span className='text-[#8873EF]'>Life</span>.</p>
 
@@ -151,7 +156,7 @@ function App() {
             </div>
           </div>
 
-          <div className='w-[45%]'>
+          <div className='sm:w-[45%]'>
             <img src={who_we_are} alt="Contains text describing who we are" />
           </div>
 
@@ -161,12 +166,19 @@ function App() {
         <div className='p-12 text-center'>
 
           <p className='mb-8 text-[52px]'>Our <span className='text-[#8873EF]'>Team</span></p>
-          <p className='mb-12 text-[20px] m-auto w-[68%]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
-          <div className='flex mb-6'>
-            <img src={member1} alt="team member 1" className='mr-2' />
-            <img src={member2} alt="team member 2" className='ml-2 mr-2' />
-            <img src={member3} alt="team member 3" className='ml-2 mr-2' />
-            <img src={member4} alt="team member 4" className='ml-2' />  
+          <p className='mb-12 text-[20px] m-auto sm:w-[68%]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
+          <div className='sm:flex mb-6'>
+
+            <div className='flex my-6'>
+              <img src={member1} alt="team member 1" className='mr-2 w-[50%]' />
+              <img src={member2} alt="team member 2" className='ml-2 sm:mr-2 w-[50%]' />
+            </div>
+            
+            <div className='flex my-6'>
+              <img src={member3} alt="team member 3" className='sm:ml-2 mr-2 w-[50%]' />
+              <img src={member4} alt="team member 4" className='ml-2 w-[50%]' />
+            </div>
+              
           </div>  
 
           <div>
@@ -193,15 +205,15 @@ function App() {
         </div>
 
         
-        <div className='pt-12 pb-6 bg-[#F4F6FB] flex justify-center'>
+        <div className='pt-12 pb-6 px-6 bg-[#F4F6FB] sm:flex sm:justify-center'>
 
-          <div className='w-[50%]'>
+          <div className='sm:w-[50%]'>
             <p className='text-[52px]'>We Work With The</p>
             <p className='text-[52px]'>Best <span className='text-[#8873EF]'>Partners</span></p>
             <p className='w-[80%] text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
           </div>
 
-          <div className='w-[40%]'>
+          <div className='sm:w-[40%]'>
             <div className='flex mb-12'>
               <img src={partner} alt="partner's logo" className='mr-6' />
               <img src={partner} alt="partner's logo" className='ml-6' />
@@ -219,7 +231,7 @@ function App() {
           
           
         </div>
-        
+
       </div>
 
       <Footer />
