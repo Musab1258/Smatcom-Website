@@ -10,6 +10,7 @@ import ArrowLeft from './images/home/arrow_left.svg';
 import ArrowRight1 from './images/home/arrow_right1.svg';
 import ArrowRight2 from './images/home/arrow_right2.svg';
 import who_we_are from './images/home/who_we_are.png';
+import Count from './images/home/Count.png'
 import partner from './images/home/Partner.png';
 import ArrowUp from './images/home/arrow_up.svg';
 import member1 from './images/home/member1.png';
@@ -160,7 +161,7 @@ function App() {
         <div className='p-12 text-center'>
 
           <p className='mb-8 text-[52px]'>Our <span className='text-[#8873EF]'>Team</span></p>
-          <p className='mb-12 text-[20px]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
+          <p className='mb-12 text-[20px] m-auto w-[68%]'>We are enthusiastic about increasing technology usage in the african community and believe that by embracing technology, we can enhance communication</p>
           <div className='flex mb-6'>
             <img src={member1} alt="team member 1" className='mr-2' />
             <img src={member2} alt="team member 2" className='ml-2 mr-2' />
@@ -180,6 +181,10 @@ function App() {
                   <img src={ArrowRight2} alt="arrow pointing to right" />
                 </span>
 
+              </div>
+
+              <div className='ml-36'>
+                <img src={Count} alt="A count for the scrolling" />
               </div>
 
             </div>
